@@ -1,12 +1,17 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
+    background-color: #eaf1ea;
+    
+}
+.top{
+    margin: 10% 10% 10% 10%;
 }
 nav{
 
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
-    background-color: #eaf1ea;
+    
     justify-content:space-evenly
 }
 nav > div{
@@ -39,5 +44,18 @@ nav > div > h2{
 }
 
 .about{
-    max-width: 100%;
+    max-width: 400px;
+    float: left;
+    margin-right: 1vw;
+    margin-bottom: 2vw;
+}
+
+.footer{
+    max-height: 100px;
+    background-color: rgb(194, 183, 160);
+    display: flex;
+    justify-content: center;
+    bottom: 0;
+    width: 100%;
+    margin-top:10%;
 }
