@@ -1,13 +1,13 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
-    background-color: #eaf1ea;
+    background-image: linear-gradient(rgb(220, 227, 231), rgb(144, 183, 190))
     
 }
 .top{
     margin: 10% 10% 10% 10%;
 }
 nav{
-    background-color: beige;
+    
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
@@ -52,7 +52,7 @@ nav > div > h2{
 
 .footer{
     max-height: 100px;
-    background-color: rgb(194, 183, 160);
+    background-color: rgb(41, 63, 95);
     display: flex;
     justify-content:space-around;
     bottom: 0;
@@ -61,13 +61,48 @@ nav > div > h2{
 }
 form {
     margin-top: 8vw;
+    font-size: 3vw;
+}
+form > div{
+    margin: 2vw 2vw 2vw 2vw;
+}
+textarea {
+    border: none;
+    width: 99%;
+}
+input[type=text]{
+    border: none;
+}
+input[type=email]{
+    border: none;
+}
+input[type=radio]{
+    display: none;
+}
+input[type=radio] + label{
+    background-color: darkgrey;
+}
+input[type=radio]:checked + label{
+    background-color: aliceblue;
+}
+input[type=checkbox]{
+    display: none;
+}
+input[type=checkbox] + label{
+    background-color: darkgrey;
+}
+input[type=checkbox]:checked + label{
+    background-color: aliceblue;
+}
+select{
+    border: none;
 }
 .submit{
-    border-radius: none;
     border: none;
     background-color: rgb(46, 110, 71);
     color:white;
     margin-top: 4vw;
+    margin-left: 3%;
     font-size: 2vw;
     width: 10vw;
     height: 4vw;
